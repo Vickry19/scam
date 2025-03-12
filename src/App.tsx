@@ -3,7 +3,7 @@ import { Heart, Music, Music as MusicOff } from 'lucide-react';
 
 function App() {
   const [isPlaying, setIsPlaying] = useState(false);
-  const [audio] = useState(new Audio('/src/audio/music.mp3'));
+  const [audio] = useState(new Audio('src/audio/music.mp3'));
 
   useEffect(() => {
     audio.loop = true;
@@ -23,11 +23,11 @@ function App() {
 
   const photos = [
     {
-      url: '/image/WhatsApp Image 2025-03-12 at 13.26.53.jpeg',
+      url: 'image/WhatsApp Image 2025-03-12 at 13.26.53.jpeg',
       message: 'Setiap detik bersamamu adalah hadiah terindah dalam hidupku',
     },
     {
-      url: '/image/WhatsApp Image 2025-03-12 at 13.09.10 (2).jpeg',
+      url: 'image/WhatsApp Image 2025-03-12 at 13.09.10 (2).jpeg',
       message: 'Senyummu adalah cahaya yang menerangi setiap hariku',
     },
     {
@@ -35,7 +35,7 @@ function App() {
       message: 'Bersamamu, setiap momen menjadi kenangan yang tak terlupakan',
     },
     {
-      url: '/image/WhatsApp Image 2025-03-12 at 13.26.54.jpeg',
+      url: 'image/WhatsApp Image 2025-03-12 at 13.26.54.jpeg',
       message: 'Di hari spesialmu ini, aku berharap dapat membuat hatimu sebahagia kamu membahagiakan aku',
     },
   ];
