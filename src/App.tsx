@@ -3,7 +3,7 @@ import { Heart, Music, Music as MusicOff } from 'lucide-react';
 
 function App() {
   const [isPlaying, setIsPlaying] = useState(false);
-  const [audio] = useState(new Audio('/audio/music.mp3'));
+  const [audio] = useState(new Audio('/audio/music.mp3'))
 
   useEffect(() => {
     audio.loop = true;
